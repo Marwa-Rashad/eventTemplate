@@ -23,6 +23,7 @@ nav {
     font-size: 1.6rem;
     width: 200px;
     z-index: 1;
+    display: none;
 }
 
 li a, #closeNav, .socials li {

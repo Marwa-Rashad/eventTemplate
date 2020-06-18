@@ -1,6 +1,12 @@
+$(document).ready(function() {
+
+
 //navigation bar 
 let navWidth = $("nav").width();
 $("nav").css("left", `-${navWidth}px`);
+$("nav").css("display", 'block');
+
+
 
 $("#navOpen").click(function() {
 
@@ -84,3 +90,4 @@ if (textValue.length <= 100) {
 }
 
 })
+});
