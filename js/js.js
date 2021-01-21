@@ -50,7 +50,7 @@ function countDown() {
 var currentDate = new Date();
 //event date is the new year
 
-var eventDate = new Date(2020, 11, 31);
+var eventDate = new Date(2021, 02, 21);
 var timeDifference = eventDate.getTime() - currentDate.getTime();
 
 //values with float
@@ -69,7 +69,7 @@ $("#seconds h4").text(`Seconds: ${parseInt(secDiff)}`);
 
 if (timeDifference <= 0) {
     clearInterval(interval);
-    $(".counters").html(`<h2 class="p-5 mt-3 mb-3">Happy New Year!</h2>`);
+    $(".counters").html(`<h2 class="p-5 mt-3 mb-3">Happy Mother's Day!</h2>`);
 }
 }
 var interval = setInterval(countDown, 1000);
