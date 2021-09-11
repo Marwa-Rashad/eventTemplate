@@ -50,7 +50,7 @@ function countDown() {
 var currentDate = new Date();
 //event date is the new year
 
-var eventDate = new Date(2021, 02, 21);
+var eventDate = new Date(2022, 02, 21);
 var timeDifference = eventDate.getTime() - currentDate.getTime();
 
 //values with float
